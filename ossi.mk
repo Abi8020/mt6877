@@ -425,7 +425,7 @@ PRODUCT_PACKAGES += \
     init.recovery.mt6877.rc
     
 # RealmeParts
-$(call inherit-product, packages/apps/RealmeParts/parts.mk)
+#$(call inherit-product, packages/apps/RealmeParts/parts.mk)
 
 
 PRODUCT_COPY_FILES += \
