@@ -135,7 +135,6 @@ ro.vendor.mtk_mvpu_security_support=0
 ro.vendor.fm.platform=connac2x
 
 # Media
-ro.vendor.mtk_hdr_video_support=1
 ro.vendor.jpeg_decode_sw_opt=2
 ro.vendor.mtk_video_hevc_enc_support=1
 vendor.mtk.vdec.waitkeyframeforplay=15
