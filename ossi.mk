@@ -360,7 +360,7 @@ PRODUCT_COPY_FILES += \
     
 
 # Power
-#(call inherit-product, $(LOCAL_PATH)/power-libperfmgr/power-libperfmgr.mk)
+(call inherit-product, $(LOCAL_PATH)/power-libperfmgr/power-libperfmgr.mk)
     
 PRODUCT_PACKAGES += \
     android.hardware.power-service.lineage-libperfmgr
