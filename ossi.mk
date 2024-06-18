@@ -289,26 +289,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/permissions/nfc_features.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/nfc_features.xml
 
-
-# Power
-PRODUCT_PACKAGES += \
-    android.hardware.power-service.lineage-libperfmgr
-
-PRODUCT_PACKAGES += \
-    libmtkperf_client_vendor \
-    libmtkperf_client
-
-PRODUCT_PACKAGES += \
-    vendor.mediatek.hardware.mtkpower@1.2-service.stub \
-    vendor.mediatek.hardware.mtkpower@1.0.vendor \
-    vendor.mediatek.hardware.mtkpower@1.1.vendor
-
-PRODUCT_PACKAGES += \
-    android.hardware.power@1.3.vendor
-
-# PowerOffAlarm
-PRODUCT_PACKAGES += \
-    PowerOffAlarm
 # USB
 PRODUCT_PACKAGES += \
     android.hardware.usb@1.0.vendor \
