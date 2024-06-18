@@ -359,9 +359,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/permissions/com.android.hotwordenrollment.common.util.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.hotwordenrollment.common.util.xml
     
 
-# Power
-$(call inherit-product, $(LOCAL_PATH)/power-libperfmgr/power-libperfmgr.mk)
-
 # Power    
 PRODUCT_PACKAGES += \
     android.hardware.power-service.lineage-libperfmgr
